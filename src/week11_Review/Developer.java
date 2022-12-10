@@ -9,6 +9,11 @@ public class Developer extends Employee{
     public void unitTesting(){
         System.out.println(getName() + " is unit testing.");
     }
+
+    @Override
+    public void work() {
+        System.out.println(getName() + " is developing a software");
+    }
 }
 
 /*

@@ -9,6 +9,11 @@ public class Tester extends Employee{
     public void smokeTesting(){
         System.out.println(getName() + " is smoke testing.");
     }
+
+    @Override
+    public void work() {
+        System.out.println(getName() + " is testing a software");
+    }
 }
 
 /*
