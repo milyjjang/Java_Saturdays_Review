@@ -30,7 +30,7 @@ public class Square extends Shape{
     @Override
     public String toString() {
         return super.toString().replace("}", "") +
-                "side=" + side +
+                ", side=" + side +
                 '}';
     }
 }

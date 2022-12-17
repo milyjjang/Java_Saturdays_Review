@@ -35,7 +35,7 @@ public class Circle extends Shape{
     @Override
     public String toString() {
         return super.toString().replace("}", "") +
-                "radius=" + radius +
+                ", radius=" + radius +
                 '}';
     }
 }

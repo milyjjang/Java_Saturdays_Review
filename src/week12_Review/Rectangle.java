@@ -39,7 +39,7 @@ public class Rectangle extends Shape {
     @Override
     public String toString() {
         return super.toString().replace("}", "") +
-                "length=" + length +
+                ", length=" + length +
                 ", width=" + width +
                 '}';
     }

@@ -4,5 +4,5 @@ public interface Volume {
 
     boolean hasVolume = true;
 
-    void calc_volume();
+    double calc_volume();
 }

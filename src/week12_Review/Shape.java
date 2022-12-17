@@ -19,8 +19,8 @@ public abstract class Shape {
     public String toString() {
         return "{" +
                 "name='" + name + '\'' +
-                "area='" + name + '\'' +
-                "perimeter='" + name + '\'' +
+                "area='" + calc_area() + '\'' +
+                "perimeter='" + calc_perimeter() + '\'' +
                 '}';
     }
 }
