@@ -9,8 +9,17 @@ public class Circle extends Shape{
         pi = 3.14;
     }
 
-    public Circle(String name) {
+    public Circle(String name, double radius) {
         super(name);
+        setRadius(radius);
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
     }
 
     @Override
