@@ -12,8 +12,8 @@ public abstract class Shape {
         return name;
     }
 
-    protected abstract void calc_area();
-    protected abstract void calc_perimeter();
+    protected abstract double calc_area();
+    protected abstract double calc_perimeter();
 
     @Override
     public String toString() {
