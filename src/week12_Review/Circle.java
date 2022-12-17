@@ -1,13 +1,11 @@
 package week12_Review;
 
-public class Circle extends Shape{
+import static java.lang.Math.PI;
+import static java.lang.Math.pow;
+
+public class Circle extends Shape {
 
     private double radius;
-    private static double pi;
-
-    static {
-        pi = 3.14;
-    }
 
     public Circle(String name, double radius) {
         super(name);
@@ -24,12 +22,12 @@ public class Circle extends Shape{
 
     @Override
     protected double calc_area() {
-        return pi * (radius * radius);
+        return PI * (pow(radius, 2));
     }
 
     @Override
     protected double calc_perimeter() {
-        return 2 * pi * radius;
+        return 2 * PI * radius;
     }
 
     @Override

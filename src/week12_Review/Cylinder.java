@@ -1,13 +1,10 @@
 package week12_Review;
 
+import static java.lang.Math.PI;
+
 public class Cylinder extends Shape implements Volume {
 
     private double radius, height;
-    private static double pi;
-
-    static {
-        pi = 3.14;
-    }
 
     public Cylinder(String name, double radius, double height) {
         super(name);
@@ -33,7 +30,7 @@ public class Cylinder extends Shape implements Volume {
 
     @Override
     protected double calc_area() {
-        return ((2 * pi * radius * height) + (2 * pi * (radius * radius)));
+        return ((2 * PI * radius * height) + (2 * PI * (radius * radius)));
     }
 
     @Override
@@ -43,7 +40,7 @@ public class Cylinder extends Shape implements Volume {
 
     @Override
     public double calc_volume() {
-        return pi * (radius * radius) * height;
+        return PI * (radius * radius) * height;
     }
 
     @Override
