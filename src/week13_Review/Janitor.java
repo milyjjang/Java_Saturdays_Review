@@ -2,8 +2,8 @@ package week13_Review;
 
 public class Janitor extends Employee{
 
-    public Janitor(String name, int age, char gender, String id, String jobTitle, double salary) {
-        super(name, age, gender, id, jobTitle, salary);
+    public Janitor(String name, int age, char gender, String id, double salary) {
+        super(name, age, gender, id, "Janitor", salary);
     }
 
     @Override

@@ -4,7 +4,7 @@ public class Driver extends Employee {
 
     private char typeofDL;
 
-    public Driver(String name, int age, char gender, String id, String jobTitle, double salary, char typeofDL) {
+    public Driver(String name, int age, char gender, String id, double salary, char typeofDL) {
         super(name, age, gender, id, "Driver", salary);
         setTypeofDL(typeofDL);
     }
