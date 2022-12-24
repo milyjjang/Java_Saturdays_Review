@@ -15,4 +15,8 @@ public class Tester extends Employee implements WorkFromHome{
     public void WFH() {
         System.out.println(getJobTitle() + " " + getName() + " is WFH");
     }
+
+    public void smokeTesting(){
+        System.out.println(getJobTitle() + " " + getName() + " is smoke testing");
+    }
 }

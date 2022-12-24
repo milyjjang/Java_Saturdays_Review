@@ -15,4 +15,8 @@ public class Developer extends Employee implements WorkFromHome{
     public void WFH() {
         System.out.println(getJobTitle() + " " + getName() + " is WFH");
     }
+
+    public void unitTesting(){
+        System.out.println(getJobTitle() + " " + getName() + " is unit testing");
+    }
 }

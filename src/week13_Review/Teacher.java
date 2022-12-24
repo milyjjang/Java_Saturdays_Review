@@ -3,7 +3,7 @@ package week13_Review;
 public class Teacher extends Employee implements WorkFromHome{
 
     public Teacher(String name, int age, char gender, String id, String jobTitle, double salary) {
-        super(name, age, gender, id, jobTitle, salary);
+        super(name, age, gender, id, "Teacher", salary);
     }
 
     @Override
