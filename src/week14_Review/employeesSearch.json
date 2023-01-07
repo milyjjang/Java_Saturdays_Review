@@ -1,0 +1,38 @@
+{
+  "scrum_team": {
+
+    "Oleksandr": {
+      "id": "A01",
+      "age": 28,
+      "job_title": "Java Developer",
+      "salary": 100000,
+      "full_time": true
+    },
+
+    "Elena": {
+      "id": "A02",
+      "age": 29,
+      "job_title": "Senior SDET",
+      "salary": 110000,
+      "full_time": true
+    },
+
+    "Yulia": {
+      "id": "A03",
+      "age": 30,
+      "job_title": "Quality Engineer",
+      "salary": 120000,
+      "full_time": true
+    },
+
+    "Abdellatif": {
+      "id": "A04",
+      "age": 31,
+      "job_title": "Business Analyst",
+      "salary": 130000,
+      "full_time": true
+    }
+
+  }
+
+}
